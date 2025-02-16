@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @import url('https://fonts.cdnfonts.com/css/general-sans');
 
 @tailwind base;
@@ -9,8 +11,21 @@
 }
 
 body {
-  background: #010103;
+  background-color: #0f2027;
+  background-image: linear-gradient(135deg, rgb(0, 0, 0) 0%, rgb(5, 0, 0) 74%);
+  color: #ffffff;
   font-family: 'General Sans', sans-serif;
+}
+
+/* body {
+  background: linear-gradient(135deg, #641896, #4f0a7d, #290342);
+  background-color: #9e66cc;
+  font-family: 'General Sans', sans-serif;
+} */
+
+.glow-text {
+  text-shadow: 0 0 5px #a987ba, 0 0 10px #a987ba, 0 0 20px #a987ba,
+    0 0 40px #a987ba, 0 0 80px #a987ba;
 }
 
 @layer utilities {
@@ -57,7 +72,7 @@ body {
 
   /* hero section */
   .hero_tag {
-    @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-generalsans font-black !leading-normal;
+    @apply text-center xl:text-5xl md:text-4xl sm:text-3xl text-xl font-anonymouspro !leading-normal;
   }
 
   /* about section */

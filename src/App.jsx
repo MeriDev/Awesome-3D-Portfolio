@@ -1,11 +1,13 @@
-import Navbar from './sections/Navbar';
+import Navbar from './components/Navbar';
+import Hero from './sections/Hero';
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <canvas id="canvas"></canvas>
-      <main className="max-w-7xl mx-auto bg-black-200"></main>
+      <main className="max-w-7xl mx-auto ">
+        <Hero />
+      </main>
     </>
   );
 };

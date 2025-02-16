@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         generalsans: ['General Sans', 'sans-serif'],
+        anonymouspro: ['Anonymous Pro', 'monospace', 'serif'],
       },
       colors: {
         black: {
